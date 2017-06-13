@@ -5,6 +5,7 @@
 - 3.可查看url和token是否正确,token名字起的唯一一点
 
 当文件编码为utf8 bom时文件前会自动添加3个字符，把文件去掉bom 再次提交，验证成功！
+- 微信公众平台技术文档 https://mp.weixin.qq.com/wiki?id=mp1421140454&highline=subscribe
 
 - 微信公众平台接口调试工具 https://mp.weixin.qq.com/debug/cgi-bin/apiinfo?t=index&type=%E6%B6%88%E6%81%AF%E6%8E%A5%E5%8F%A3%E8%B0%83%E8%AF%95&form=%E4%BA%8B%E4%BB%B6%E6%B6%88%E6%81%AF
 
