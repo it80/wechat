@@ -32,7 +32,9 @@ class wechatCallbackapiTest
     public function responseMsg()
     {
     //get post data, May be due to the different environments
-    $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
+    //$postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
+    //php5.6版本替换为此函数
+    $postArr = file_get_contents("php://input");
 
         //extract post data
     if (!empty($postStr)){
